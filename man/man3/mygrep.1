@@ -1,0 +1,9 @@
+.TH MYGREP 3 "2025-09-22" "libmyutils" "Utility Functions"
+.SH NAME
+mygrep \- Search for lines containing a string in a file
+.SH SYNOPSIS
+.B int mygrep(FILE* fp, const char* search_str, char*** matches);
+.SH DESCRIPTION
+Searches for lines containing search_str in the file and stores matching lines in matches. Returns the count of matches or -1 on failure.
+.SH AUTHOR
+Muneeb <muneeb@example.com>
